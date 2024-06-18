@@ -1,0 +1,67 @@
+I, [2024-06-18T21:31:18.982734 #16874]  INFO -- : Request: POST /tests
+I, [2024-06-18T21:31:18.983129 #16874]  INFO -- : Handler: #<TestsController:0x00005a6f5a9f25a8>#create
+I, [2024-06-18T21:31:19.017696 #16874]  INFO -- : Parameters: {}
+I, [2024-06-18T21:31:19.021651 #16874]  INFO -- : Response: 200 text/plain
+I, [2024-06-18T21:34:31.826954 #18332]  INFO -- : Request: POST /tests
+I, [2024-06-18T21:34:31.827829 #18332]  INFO -- : Handler: #<TestsController:0x00007b4298038e90>#create
+I, [2024-06-18T21:34:31.880000 #18332]  INFO -- : Parameters: {}
+I, [2024-06-18T21:34:31.880243 #18332]  INFO -- : Response: 200 text/plain
+I, [2024-06-18T21:34:31.880392 #18332]  INFO -- : Template: Creating test...
+I, [2024-06-18T21:35:07.403881 #18332]  INFO -- : Request: GET /tests
+I, [2024-06-18T21:35:07.406811 #18332]  INFO -- : Handler: #<TestsController:0x00007b4298082900>#index
+I, [2024-06-18T21:35:07.407051 #18332]  INFO -- : Parameters: {}
+I, [2024-06-18T21:35:07.407184 #18332]  INFO -- : Response: 200 text/html
+I, [2024-06-18T21:35:07.407315 #18332]  INFO -- : Template: <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Index | Simpler application</title>
+  </head>
+  <body>
+    <h1>Simpler framework at work!</h1>
+
+    <p></p>
+  </body>
+</html>
+I, [2024-06-18T21:37:03.483986 #18332]  INFO -- : Request: GET /tests
+I, [2024-06-18T21:37:03.484312 #18332]  INFO -- : Handler: #<TestsController:0x00007b42980a4f78>#index
+I, [2024-06-18T21:37:03.484555 #18332]  INFO -- : Parameters: {}
+I, [2024-06-18T21:37:03.484707 #18332]  INFO -- : Response: 200 text/html
+I, [2024-06-18T21:37:03.484838 #18332]  INFO -- : Template: <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Index | Simpler application</title>
+  </head>
+  <body>
+    <h1>Simpler framework at work!</h1>
+
+    <p></p>
+  </body>
+</html>
+I, [2024-06-18T21:37:29.301184 #18332]  INFO -- : Request: GET /tests
+I, [2024-06-18T21:37:29.301519 #18332]  INFO -- : Handler: #<TestsController:0x00007b42980b5878>#index
+I, [2024-06-18T21:37:29.301708 #18332]  INFO -- : Parameters: {}
+I, [2024-06-18T21:37:29.301845 #18332]  INFO -- : Response: 200 text/html
+I, [2024-06-18T21:37:29.302154 #18332]  INFO -- : Template: <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Index | Simpler application</title>
+  </head>
+  <body>
+    <h1>Simpler framework at work!</h1>
+
+    <p></p>
+  </body>
+</html>
+I, [2024-06-18T21:37:48.198580 #18332]  INFO -- : Request: GET /nonexistent
+I, [2024-06-18T21:37:48.198758 #18332]  INFO -- : Handler: #
+I, [2024-06-18T21:37:48.198880 #18332]  INFO -- : Parameters: {}
+I, [2024-06-18T21:37:48.198956 #18332]  INFO -- : Response: 404 text/plain
+I, [2024-06-18T21:37:48.199024 #18332]  INFO -- : Template: Not Found
+I, [2024-06-18T21:38:27.720622 #18332]  INFO -- : Request: GET /status
+I, [2024-06-18T21:38:27.726141 #18332]  INFO -- : Handler: #
+I, [2024-06-18T21:38:27.726453 #18332]  INFO -- : Parameters: {}
+I, [2024-06-18T21:38:27.726611 #18332]  INFO -- : Response: 404 text/plain
+I, [2024-06-18T21:38:27.726805 #18332]  INFO -- : Template: Not Found
