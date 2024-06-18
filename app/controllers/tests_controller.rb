@@ -1,4 +1,11 @@
 class TestsController < Simpler::Controller
+
+  def custom_status
+    status 201
+    headers['Custom-Header'] = 'Value'
+    render plain: "Status set to 201"
+  end
+  
   def index
     @tests = Test.all
   end

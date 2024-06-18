@@ -65,3 +65,23 @@ I, [2024-06-18T21:38:27.726141 #18332]  INFO -- : Handler: #
 I, [2024-06-18T21:38:27.726453 #18332]  INFO -- : Parameters: {}
 I, [2024-06-18T21:38:27.726611 #18332]  INFO -- : Response: 404 text/plain
 I, [2024-06-18T21:38:27.726805 #18332]  INFO -- : Template: Not Found
+I, [2024-06-18T21:52:32.055721 #20663]  INFO -- : Request: GET /status
+I, [2024-06-18T21:52:32.056168 #20663]  INFO -- : Handler: #
+I, [2024-06-18T21:52:32.057464 #20663]  INFO -- : Parameters: {}
+I, [2024-06-18T21:52:32.058071 #20663]  INFO -- : Response: 404 text/plain
+I, [2024-06-18T21:52:32.061600 #20663]  INFO -- : Template: Not Found
+I, [2024-06-18T21:52:39.949630 #20663]  INFO -- : Request: GET /status
+I, [2024-06-18T21:52:39.949761 #20663]  INFO -- : Handler: #
+I, [2024-06-18T21:52:39.949874 #20663]  INFO -- : Parameters: {}
+I, [2024-06-18T21:52:39.950262 #20663]  INFO -- : Response: 404 text/plain
+I, [2024-06-18T21:52:39.950356 #20663]  INFO -- : Template: Not Found
+I, [2024-06-18T21:54:23.599327 #20663]  INFO -- : Request: GET /status
+I, [2024-06-18T21:54:23.606074 #20663]  INFO -- : Handler: #
+I, [2024-06-18T21:54:23.606348 #20663]  INFO -- : Parameters: {}
+I, [2024-06-18T21:54:23.606497 #20663]  INFO -- : Response: 404 text/plain
+I, [2024-06-18T21:54:23.606630 #20663]  INFO -- : Template: Not Found
+I, [2024-06-18T21:54:47.918712 #20934]  INFO -- : Request: GET /status
+I, [2024-06-18T21:54:47.919076 #20934]  INFO -- : Handler: #<TestsController:0x00005ad11594df90>#custom_status
+I, [2024-06-18T21:54:47.920459 #20934]  INFO -- : Parameters: {}
+I, [2024-06-18T21:54:47.920666 #20934]  INFO -- : Response: 201 text/plain
+I, [2024-06-18T21:54:47.920809 #20934]  INFO -- : Template: Status set to 201
