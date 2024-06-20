@@ -34,20 +34,36 @@ module Simpler
 
     def write_response
       body = render_body
-
       @response.write(body)
     end
 
     def render_body
-      View.new(@request.env).render(binding)
+      if @request.env['simpler.plain']
+        @request.env['simpler.plain']
+      else
+        View.new(@request.env).render(binding)
+      end
     end
 
     def params
-      @request.params
+      @request.env['simpler.params'].merge(@request.params)
     end
 
-    def render(template)
-      @request.env['simpler.template'] = template
+    def render(template = nil, plain: nil)
+      if plain
+        @response['Content-Type'] = 'text/plain'
+        @request.env['simpler.plain'] = plain
+      else
+        @request.env['simpler.template'] = template
+      end
+    end
+
+    def status(code)
+      @response.status = code
+    end
+
+    def headers
+      @response.headers
     end
 
   end
